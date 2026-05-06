@@ -62,7 +62,7 @@ Disfruto crear soluciones que combinan lógica y creatividad, y siempre estoy bu
 <h3 align="center">🗄️ Bases de datos y almacenamiento</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,firebase&perline=10" />
+    <img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase&perline=10" />
   </a>
 </p>
 
