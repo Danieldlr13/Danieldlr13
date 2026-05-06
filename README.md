@@ -46,7 +46,7 @@ Disfruto crear soluciones que combinan lógica y creatividad, y siempre estoy bu
 <h3 align="center">🎨 Frontend</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,tailwind,bootstrap,react,css&perline=10" />
+    <img src="https://skillicons.dev/icons?i=html,tailwind,react,css&perline=10" />
   </a>
 </p>
 
@@ -54,7 +54,7 @@ Disfruto crear soluciones que combinan lógica y creatividad, y siempre estoy bu
 <h3 align="center">⚙️ Backend</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,laravel,nginx&perline=10" />
+    <img src="https://skillicons.dev/icons?i=nodejs,fastapi,laravel,nginx&perline=10" />
   </a>
 </p>
 
