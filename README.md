@@ -1,7 +1,7 @@
 # Daniel Steven de la Rosa Narváez
 
 Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, sede Medellín.
-Construyo software backend y busco una oportunidad para seguir creciendo en esa área.
+Construyo software de punta a punta y me interesa resolver problemas reales con tecnología.
 
 ## Proyectos
 
