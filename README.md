@@ -1,68 +1,26 @@
-<div align="center">
-  <h2>Daniel Steven de la Rosa Narváez</h2>
-  <p><em>Desarrollador de Software · Backend & IoT</em></p>
-</div>
+# Daniel Steven de la Rosa Narváez
 
-<table>
-<tr>
-<td>
+Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, sede Medellín.
+Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 
-Soy estudiante de **Ingeniería de Sistemas e Informática** en la Universidad Nacional de Colombia, con interés en el **desarrollo de software**, la **automatización** y el **análisis de datos**.  
-Disfruto construir soluciones que combinan lógica y creatividad, y busco constantemente **aprender nuevas tecnologías** y **mejorar como desarrollador**.
+## Desarrollo backend
 
----
+- **[Platia](https://github.com/Danieldlr13/Platia):** consolida gastos a partir de los correos de notificación de Bancolombia y los muestra en un panel. TypeScript, Next.js y Supabase, con pruebas y CI.
+- **[AutogestionComfaChoco](https://github.com/Camilotabares/AutogestionComfaChoco):** sistema de gestión de vacaciones y permisos, desarrollado en equipo. Laravel y MySQL.
 
-- Actualmente fortalezco mis conocimientos tanto en **frontend** como en **backend**.  
-- Exploro nuevos lenguajes y enfoques dentro del desarrollo.  
-- Abierto a colaborar en proyectos de software, sin importar su escala o enfoque.  
-- Me motivan los retos donde el código resuelve problemas reales.
+## Datos
 
-</td>
-<td align="center">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coding" width="380" height="280">
-</td>
-</tr>
-</table>
+- **[Limpieza de solicitudes de crédito](https://github.com/2025-2-fundamentos/LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Danieldlr13):** laboratorio de limpieza de datos con Python y pandas.
+- **[Predicción de default](https://github.com/2025-2-fundamentos/LAB-10-prediccion-del-default-usando-logreg-Danieldlr13):** laboratorio de clasificación con regresión logística.
 
+## Infraestructura
 
-## Sobre mí
+- **[repeat-me](https://github.com/Danieldlr13/repeat-me):** convierte un dispositivo Linux en un punto de acceso WiFi con un solo comando. Shell.
 
-<div align="center">
-  <h3>Tecnologías que conozco</h3>
-</div>
+## Tecnologías
 
+Python, Java, TypeScript, JavaScript, SQL · Node.js, Next.js, FastAPI, Laravel · PostgreSQL, MySQL · pandas · Docker, GitHub Actions, Linux
 
-<h3 align="center">Lenguajes</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,java,php,r&perline=10" />
-  </a>
-</p>
+## Contacto
 
-<h3 align="center">Frontend</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,react,vite&perline=10" />
-  </a>
-</p>
-
-<h3 align="center">Backend</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,fastapi,laravel,nginx&perline=10" />
-  </a>
-</p>
-
-<h3 align="center">Bases de datos y almacenamiento</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase&perline=10" />
-  </a>
-</p>
-
-<h3 align="center">Herramientas, diseño y DevOps</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,figma,vscode,md&perline=10" />
-  </a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/daniel-steven-de-la-rosa-narvaez-a54368303/) · dandel@unal.edu.co
