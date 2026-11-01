@@ -14,8 +14,9 @@ Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 - **[Limpieza de solicitudes de crédito](https://github.com/2025-2-fundamentos/LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Danieldlr13):** laboratorio de limpieza de datos con Python y pandas.
 - **[Predicción de default](https://github.com/2025-2-fundamentos/LAB-10-prediccion-del-default-usando-logreg-Danieldlr13):** laboratorio de clasificación con regresión logística.
 
-## Infraestructura
+## Seguridad e infraestructura
 
+- **Hackathon Aligo, Defensores Informáticos (Talento Tech):** framework de comando y control para laboratorio autorizado, con protocolo binario propio y cifrado autenticado (X25519, ChaCha20-Poly1305). Python. Repositorio privado.
 - **[repeat-me](https://github.com/Danieldlr13/repeat-me):** convierte un dispositivo Linux en un punto de acceso WiFi con un solo comando. Shell.
 
 ## Tecnologías
