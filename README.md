@@ -12,6 +12,8 @@ Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 
 ## Datos
 
+- **[Curso de analítica descriptiva](https://github.com/2026-2-descriptiva/std-daniel-steven-de-la-rosa-narvaez):** actividades de limpieza, anonimización y análisis de datos con Python, pandas y SQLite.
+- **[Curso de analítica predictiva](https://github.com/2026-2-predictiva/std-daniel-steven-de-la-rosa-narvaez):** actividades de regresión, clasificación, clustering, series de tiempo y pipelines con Python.
 - **[Limpieza de solicitudes de crédito](https://github.com/2025-2-fundamentos/LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Danieldlr13):** laboratorio de limpieza de datos con Python y pandas.
 - **[Predicción de default](https://github.com/2025-2-fundamentos/LAB-10-prediccion-del-default-usando-logreg-Danieldlr13):** laboratorio de clasificación con regresión logística.
 
