@@ -1,30 +1,41 @@
-# Daniel Steven de la Rosa Narváez
+<img src="assets/banner.svg" alt="Daniel Steven de la Rosa Narváez. Recorrido con tres paradas: 01 backend, 02 datos y 03 seguridad." width="100%">
 
 Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, sede Medellín.
 Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 
-## Desarrollo backend
+## `01` Desarrollo backend
 
-- **[api-cuentas](https://github.com/Danieldlr13/api-cuentas):** API REST para crear cuentas y transferir saldo entre ellas dentro de una transacción. Java, Spring Boot, Spring Data JPA y PostgreSQL, con pruebas.
-- **[Platia](https://github.com/Danieldlr13/Platia):** consolida gastos a partir de los correos de notificación de Bancolombia y los muestra en un panel. TypeScript, Next.js y Supabase, con pruebas y CI.
-- **[AutogestionComfaChoco](https://github.com/Camilotabares/AutogestionComfaChoco):** sistema de gestión de vacaciones y permisos, desarrollado en equipo. Laravel y MySQL.
-- **[DPlay](https://reproductor-dandel.web.app/):** reproductor de música web, con demo en línea. Repositorio privado.
+| Proyecto | Qué hace | Stack | Ver |
+|:---|:---|:---|:---|
+| **api-cuentas** | API REST para crear cuentas y transferir saldo entre ellas dentro de una transacción, con pruebas | `Java` `Spring Boot` `Spring Data JPA` `PostgreSQL` | [Código](https://github.com/Danieldlr13/api-cuentas) |
+| **Platia** | Consolida gastos a partir de los correos de notificación de Bancolombia y los muestra en un panel, con pruebas y CI | `TypeScript` `Next.js` `Supabase` | [Código](https://github.com/Danieldlr13/Platia) |
+| **AutogestionComfaChoco** | Sistema de gestión de vacaciones y permisos, desarrollado en equipo | `Laravel` `MySQL` | [Código](https://github.com/Camilotabares/AutogestionComfaChoco) |
+| **DPlay** | Reproductor de música web | `Aplicación web` | [Demo](https://reproductor-dandel.web.app/) · repo privado |
 
-## Datos
+## `02` Datos
 
-- **[Curso de analítica descriptiva](https://github.com/2026-2-descriptiva/std-daniel-steven-de-la-rosa-narvaez):** actividades de limpieza, anonimización y análisis de datos con Python, pandas y SQLite.
-- **[Curso de analítica predictiva](https://github.com/2026-2-predictiva/std-daniel-steven-de-la-rosa-narvaez):** actividades de regresión, clasificación, clustering, series de tiempo y pipelines con Python.
-- **[Limpieza de solicitudes de crédito](https://github.com/2025-2-fundamentos/LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Danieldlr13):** laboratorio de limpieza de datos con Python y pandas.
-- **[Predicción de default](https://github.com/2025-2-fundamentos/LAB-10-prediccion-del-default-usando-logreg-Danieldlr13):** laboratorio de clasificación con regresión logística.
+| Proyecto | Qué hace | Stack | Ver |
+|:---|:---|:---|:---|
+| **Analítica descriptiva** | Actividades del curso: limpieza, anonimización y análisis de datos | `Python` `pandas` `SQLite` | [Código](https://github.com/2026-2-descriptiva/std-daniel-steven-de-la-rosa-narvaez) |
+| **Analítica predictiva** | Actividades del curso: regresión, clasificación, clustering, series de tiempo y pipelines | `Python` `scikit-learn` | [Código](https://github.com/2026-2-predictiva/std-daniel-steven-de-la-rosa-narvaez) |
+| **Solicitudes de crédito** | Laboratorio de limpieza de datos | `Python` `pandas` | [Código](https://github.com/2025-2-fundamentos/LAB-06-limpieza-de-datos-de-solicitudes-de-credito-Danieldlr13) |
+| **Predicción de default** | Laboratorio de clasificación con regresión logística | `Python` | [Código](https://github.com/2025-2-fundamentos/LAB-10-prediccion-del-default-usando-logreg-Danieldlr13) |
 
-## Seguridad e infraestructura
+## `03` Seguridad e infraestructura
 
-- **Hackathon Aligo, Defensores Informáticos (Talento Tech):** framework de comando y control para laboratorio autorizado, con protocolo binario propio y cifrado autenticado (X25519, ChaCha20-Poly1305). Python. Repositorio privado.
-- **[repeat-me](https://github.com/Danieldlr13/repeat-me):** convierte un dispositivo Linux en un punto de acceso WiFi con un solo comando. Shell.
+| Proyecto | Qué hace | Stack | Ver |
+|:---|:---|:---|:---|
+| **Hackathon Aligo, Defensores Informáticos** (Talento Tech) | Framework de comando y control para laboratorio autorizado, con protocolo binario propio y cifrado autenticado | `Python` `X25519` `ChaCha20-Poly1305` | Repo privado |
+| **repeat-me** | Convierte un dispositivo Linux en un punto de acceso WiFi con un solo comando | `Shell` `hostapd` `dnsmasq` | [Código](https://github.com/Danieldlr13/repeat-me) |
 
 ## Tecnologías
 
-Python, Java, TypeScript, JavaScript, SQL · Spring Boot, Node.js, Next.js, FastAPI, Laravel · PostgreSQL, MySQL · pandas · Docker, GitHub Actions, Linux
+| Área | Herramientas |
+|:---|:---|
+| **Lenguajes** | `Python` `Java` `TypeScript` `JavaScript` `SQL` |
+| **Frameworks** | `Spring Boot` `Node.js` `Next.js` `FastAPI` `Laravel` |
+| **Datos** | `PostgreSQL` `MySQL` `pandas` |
+| **Herramientas** | `Docker` `GitHub Actions` `Linux` |
 
 ## Contacto
 

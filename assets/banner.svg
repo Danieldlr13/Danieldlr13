@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+  <title id="t">Daniel Steven de la Rosa Narváez</title>
+  <desc id="d">Recorrido con tres paradas: 01 backend, 02 datos y 03 seguridad.</desc>
+  <defs>
+    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#2a3346"/>
+    </pattern>
+    <linearGradient id="l" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset=".5" stop-color="#f5b942"/>
+      <stop offset="1" stop-color="#ff7a70"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .name { font-size: 38px; font-weight: 700; fill: #f4f6fb; }
+    .sub { font-size: 20px; fill: #9aa7bd; }
+    .num { font-size: 22px; font-weight: 700; }
+    .label { font-size: 24px; fill: #f4f6fb; }
+    .packet { animation: travel 7s cubic-bezier(.45,.05,.55,.95) infinite; }
+    @keyframes travel {
+      0% { transform: translateX(0); fill: #2dd4bf; }
+      50% { transform: translateX(370px); fill: #f5b942; }
+      100% { transform: translateX(740px); fill: #ff7a70; }
+    }
+    @media (prefers-reduced-motion: reduce) { .packet { animation: none; opacity: 0; } }
+  </style>
+  <rect width="1000" height="300" rx="18" fill="#0f1420"/>
+  <rect width="1000" height="300" rx="18" fill="url(#p)"/>
+  <text x="56" y="84" class="name">Daniel Steven de la Rosa Narváez</text>
+  <text x="56" y="122" class="sub">Ingeniería de Sistemas e Informática · UNAL Medellín</text>
+  <line x1="130" y1="200" x2="870" y2="200" stroke="url(#l)" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#0f1420" stroke-width="5">
+    <circle cx="130" cy="200" r="13" fill="#2dd4bf"/>
+    <circle cx="500" cy="200" r="13" fill="#f5b942"/>
+    <circle cx="870" cy="200" r="13" fill="#ff7a70"/>
+  </g>
+  <circle class="packet" cx="130" cy="200" r="6" fill="#2dd4bf"/>
+  <g text-anchor="middle">
+    <text x="130" y="248" class="num" fill="#2dd4bf">01</text>
+    <text x="130" y="278" class="label">backend</text>
+    <text x="500" y="248" class="num" fill="#f5b942">02</text>
+    <text x="500" y="278" class="label">datos</text>
+    <text x="870" y="248" class="num" fill="#ff7a70">03</text>
+    <text x="870" y="278" class="label">seguridad</text>
+  </g>
+</svg>
