@@ -5,6 +5,7 @@ Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 
 ## Desarrollo backend
 
+- **[api-cuentas](https://github.com/Danieldlr13/api-cuentas):** API REST para crear cuentas y transferir saldo entre ellas dentro de una transacción. Java, Spring Boot, Spring Data JPA y PostgreSQL, con pruebas.
 - **[Platia](https://github.com/Danieldlr13/Platia):** consolida gastos a partir de los correos de notificación de Bancolombia y los muestra en un panel. TypeScript, Next.js y Supabase, con pruebas y CI.
 - **[AutogestionComfaChoco](https://github.com/Camilotabares/AutogestionComfaChoco):** sistema de gestión de vacaciones y permisos, desarrollado en equipo. Laravel y MySQL.
 
@@ -19,7 +20,7 @@ Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 
 ## Tecnologías
 
-Python, Java, TypeScript, JavaScript, SQL · Node.js, Next.js, FastAPI, Laravel · PostgreSQL, MySQL · pandas · Docker, GitHub Actions, Linux
+Python, Java, TypeScript, JavaScript, SQL · Spring Boot, Node.js, Next.js, FastAPI, Laravel · PostgreSQL, MySQL · pandas · Docker, GitHub Actions, Linux
 
 ## Contacto
 
