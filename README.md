@@ -8,6 +8,7 @@ Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
 - **[api-cuentas](https://github.com/Danieldlr13/api-cuentas):** API REST para crear cuentas y transferir saldo entre ellas dentro de una transacción. Java, Spring Boot, Spring Data JPA y PostgreSQL, con pruebas.
 - **[Platia](https://github.com/Danieldlr13/Platia):** consolida gastos a partir de los correos de notificación de Bancolombia y los muestra en un panel. TypeScript, Next.js y Supabase, con pruebas y CI.
 - **[AutogestionComfaChoco](https://github.com/Camilotabares/AutogestionComfaChoco):** sistema de gestión de vacaciones y permisos, desarrollado en equipo. Laravel y MySQL.
+- **[DPlay](https://reproductor-dandel.web.app/):** reproductor de música web, con demo en línea. Repositorio privado.
 
 ## Datos
 
