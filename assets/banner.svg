@@ -1,47 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
-  <title id="t">Daniel Steven de la Rosa Narváez</title>
-  <desc id="d">Recorrido con tres paradas: 01 backend, 02 datos y 03 seguridad.</desc>
-  <defs>
-    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#2a3346"/>
-    </pattern>
-    <linearGradient id="l" gradientUnits="userSpaceOnUse" x1="130" x2="870" y1="200" y2="200">
-      <stop offset="0" stop-color="#2dd4bf"/>
-      <stop offset=".5" stop-color="#f5b942"/>
-      <stop offset="1" stop-color="#ff7a70"/>
-    </linearGradient>
-  </defs>
-  <style>
-    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .name { font-size: 38px; font-weight: 700; fill: #f4f6fb; }
-    .sub { font-size: 20px; fill: #9aa7bd; }
-    .num { font-size: 22px; font-weight: 700; }
-    .label { font-size: 24px; fill: #f4f6fb; }
-    .packet { animation: travel 7s cubic-bezier(.45,.05,.55,.95) infinite; }
-    @keyframes travel {
-      0% { transform: translateX(0); fill: #2dd4bf; }
-      50% { transform: translateX(370px); fill: #f5b942; }
-      100% { transform: translateX(740px); fill: #ff7a70; }
-    }
-    @media (prefers-reduced-motion: reduce) { .packet { animation: none; opacity: 0; } }
-  </style>
-  <rect width="1000" height="300" rx="18" fill="#0f1420"/>
-  <rect width="1000" height="300" rx="18" fill="url(#p)"/>
-  <text x="56" y="84" class="name">Daniel Steven de la Rosa Narváez</text>
-  <text x="56" y="122" class="sub">Ingeniería de Sistemas e Informática · UNAL Medellín</text>
-  <line x1="130" y1="200" x2="870" y2="200" stroke="url(#l)" stroke-width="3" stroke-linecap="round"/>
-  <g stroke="#0f1420" stroke-width="5">
-    <circle cx="130" cy="200" r="13" fill="#2dd4bf"/>
-    <circle cx="500" cy="200" r="13" fill="#f5b942"/>
-    <circle cx="870" cy="200" r="13" fill="#ff7a70"/>
-  </g>
-  <circle class="packet" cx="130" cy="200" r="6" fill="#2dd4bf"/>
-  <g text-anchor="middle">
-    <text x="130" y="248" class="num" fill="#2dd4bf">01</text>
-    <text x="130" y="278" class="label">backend</text>
-    <text x="500" y="248" class="num" fill="#f5b942">02</text>
-    <text x="500" y="278" class="label">datos</text>
-    <text x="870" y="248" class="num" fill="#ff7a70">03</text>
-    <text x="870" y="278" class="label">seguridad</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="t d">
+<title id="t">Daniel Steven de la Rosa Narváez</title>
+<desc id="d">Un muñequito de píxeles recorre un camino, salta para golpear bloques con íconos y llega a una bandera.</desc>
+<defs><pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#2a3346"/></pattern></defs>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+.name { font-size: 38px; font-weight: 700; fill: #f4f6fb; }
+.sub { font-size: 20px; fill: #9aa7bd; }
+.code { font-size: 22px; font-weight: 700; fill: currentColor; }
+.walker { animation: walk 16s linear infinite; }
+.jumper { animation: jump 16s linear infinite; }
+.legs-a { animation: frame-a .44s steps(1) infinite; }
+.legs-b { animation: frame-b .44s steps(1) infinite; }
+.wave { animation: wave 16s linear infinite; transform-origin: 900px 280px; }
+@keyframes walk {
+  0% { transform: translateX(70px); opacity: 0; }
+  2% { opacity: 1; }
+  86% { transform: translateX(880px); }
+  97% { transform: translateX(880px); opacity: 1; }
+  100% { transform: translateX(880px); opacity: 0; }
+}
+@keyframes jump { 0%{transform:translateY(0)} 11.46%{transform:translateY(0)} 14.86%{transform:translateY(-34px)} 18.26%{transform:translateY(0)} 29.51%{transform:translateY(0)} 32.91%{transform:translateY(-34px)} 36.31%{transform:translateY(0)} 47.56%{transform:translateY(0)} 50.96%{transform:translateY(-34px)} 54.36%{transform:translateY(0)} 65.61%{transform:translateY(0)} 69.01%{transform:translateY(-34px)} 72.41%{transform:translateY(0)} 100%{transform:translateY(0)} }
+@keyframes frame-a { 0% { opacity: 1; } 50% { opacity: 0; } }
+@keyframes frame-b { 0% { opacity: 0; } 50% { opacity: 1; } }
+@keyframes wave {
+  0%, 85% { opacity: .35; transform: scaleY(1); }
+  87% { opacity: 1; transform: scaleY(1.12); }
+  89%, 97% { opacity: 1; transform: scaleY(1); }
+  100% { opacity: .35; }
+}
+
+.b0 { animation: bump0 16s linear infinite; }
+@keyframes bump0 {
+  0%, 14.46% { transform: translateY(0); opacity: .38; }
+  15.86% { transform: translateY(-12px); opacity: 1; }
+  17.46%, 97% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(0); opacity: .38; }
+}
+.b1 { animation: bump1 16s linear infinite; }
+@keyframes bump1 {
+  0%, 32.51% { transform: translateY(0); opacity: .38; }
+  33.91% { transform: translateY(-12px); opacity: 1; }
+  35.51%, 97% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(0); opacity: .38; }
+}
+.b2 { animation: bump2 16s linear infinite; }
+@keyframes bump2 {
+  0%, 50.56% { transform: translateY(0); opacity: .38; }
+  51.96% { transform: translateY(-12px); opacity: 1; }
+  53.56%, 97% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(0); opacity: .38; }
+}
+.b3 { animation: bump3 16s linear infinite; }
+@keyframes bump3 {
+  0%, 68.61% { transform: translateY(0); opacity: .38; }
+  70.01% { transform: translateY(-12px); opacity: 1; }
+  71.61%, 97% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(0); opacity: .38; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .walker, .jumper, .legs-a, .legs-b, .wave, .b0, .b1, .b2, .b3 { animation: none; }
+  .walker { transform: translateX(70px); }
+  .legs-b { opacity: 0; }
+}
+</style>
+<rect width="1000" height="320" rx="18" fill="#0f1420"/>
+<rect width="1000" height="320" rx="18" fill="url(#p)"/>
+<text x="56" y="78" class="name">Daniel Steven de la Rosa Narváez</text>
+<text x="56" y="114" class="sub">Ingeniería de Sistemas e Informática · UNAL Medellín</text>
+<line x1="40" y1="283" x2="960" y2="283" stroke="#46557a" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g class="b0" style="color:#2dd4bf"><g transform="translate(205 138)"><rect width="50" height="50" rx="8" fill="#1a2233" stroke="currentColor" stroke-width="3"/><text x="25" y="33" text-anchor="middle" class="code">&lt;/&gt;</text></g></g><g class="b1" style="color:#f5b942"><g transform="translate(375 138)"><rect width="50" height="50" rx="8" fill="#1a2233" stroke="currentColor" stroke-width="3"/><circle cx="25" cy="21" r="10" fill="currentColor"/><rect x="20" y="33" width="10" height="3" fill="currentColor"/><rect x="21" y="38" width="8" height="3" fill="currentColor"/></g></g><g class="b2" style="color:#a78bfa"><g transform="translate(545 138)"><rect width="50" height="50" rx="8" fill="#1a2233" stroke="currentColor" stroke-width="3"/><circle cx="25" cy="25" r="11" fill="none" stroke="currentColor" stroke-width="5" stroke-dasharray="5 3.64"/><circle cx="25" cy="25" r="8" fill="none" stroke="currentColor" stroke-width="4"/></g></g><g class="b3" style="color:#ff7a70"><g transform="translate(715 138)"><rect width="50" height="50" rx="8" fill="#1a2233" stroke="currentColor" stroke-width="3"/><rect x="13" y="20" width="19" height="18" rx="2" fill="currentColor"/><rect x="32" y="24" width="6" height="9" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 16 q-3 -4 0 -7 M26 16 q-3 -4 0 -7" fill="none" stroke="currentColor" stroke-width="2.5"/></g></g>
+<g class="wave"><rect x="898" y="196" width="5" height="84" fill="#c7d0e0"/><path d="M903 198 L948 214 L903 230 Z" fill="#f5b942"/></g>
+<g class="walker"><g class="jumper"><g transform="translate(0 224)"><rect x="8" y="0" width="24" height="8" fill="#3a2a20"/><rect x="4" y="4" width="4" height="8" fill="#3a2a20"/><rect x="32" y="4" width="4" height="4" fill="#3a2a20"/><rect x="8" y="8" width="24" height="12" fill="#e8b48a"/><rect x="8" y="8" width="4" height="4" fill="#3a2a20"/><rect x="24" y="12" width="4" height="4" fill="#10141c"/><rect x="8" y="20" width="24" height="20" fill="#2dd4bf"/><rect x="4" y="24" width="4" height="12" fill="#1a9e8e"/><rect x="32" y="24" width="4" height="12" fill="#1a9e8e"/><rect x="4" y="36" width="4" height="4" fill="#e8b48a"/><rect x="32" y="36" width="4" height="4" fill="#e8b48a"/><g class="legs-a"><rect x="8" y="40" width="8" height="12" fill="#46557a"/><rect x="24" y="40" width="8" height="12" fill="#46557a"/><rect x="8" y="52" width="12" height="4" fill="#f4f6fb"/><rect x="24" y="52" width="12" height="4" fill="#f4f6fb"/></g><g class="legs-b"><rect x="16" y="40" width="8" height="12" fill="#46557a"/><rect x="16" y="52" width="12" height="4" fill="#f4f6fb"/></g></g></g></g>
 </svg>

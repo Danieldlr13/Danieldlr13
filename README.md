@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Daniel Steven de la Rosa Narváez. Recorrido con tres paradas: 01 backend, 02 datos y 03 seguridad." width="100%">
+<img src="assets/banner.svg" alt="Daniel Steven de la Rosa Narváez. Un muñequito de píxeles recorre un camino, salta para golpear bloques con íconos y llega a una bandera." width="100%">
 
 Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, sede Medellín.
 Me interesan el desarrollo backend, la ingeniería de datos y la ciberseguridad.
